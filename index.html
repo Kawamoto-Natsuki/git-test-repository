@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML&CSS 実践</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  </head>
+  <body>
+    <section id="header-top">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#contact">Toiawase</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="top_wrap">
+        <h1>自己紹介profile</h1>
+      </div>
+    </section>
+    <main>
+      <section id="about">
+        <h2 class="section_title">about</h2>
+        <div class="about_wrap">
+          <div class="about_left">
+            <img src="./img/profile.png" alt="僕の画像" />
+          </div>
+          <div class="about_right">
+            <h3>川本夏生</h3>
+            <h6>Kawamoto Natsuki</h6>
+            <hr />
+            <p>
+              鹿児島県の島生まれ、島育ち。<br />
+              東京での就職を夢見る生粋の田舎者。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill">
+        <h2 class="section_title">Skill</h2>
+        <div class="skill_wrap">
+          <img src="./img/html-logo.png" alt="HTML" />
+          <img src="./img/css-logo.png" alt="CSS" />
+        </div>
+        <p>今後にこうご期待</p>
+      </section>
+
+      <section id="twitter">
+        <h2 class="section_title">Twitter</h2>
+        <div class="twitter_wrap">
+          <a href="https://twitter.com/527_ntk" target="_blank"
+            ><img src="./img/twitter-top.jpg" alt="twitterのアイコン"
+          /></a>
+          <p>ぜひ遊びに来て下さい！</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section_title">Toiawase</h2>
+        <div class="contact_wrap">
+          <form class="form" method="post">
+            <div>
+              <label for="name">氏名：</label>
+              <input type="text" id="name" name="user_name" />
+            </div>
+            <div>
+              <label for="name">メールアドレス：</label>
+              <input type="text" id="e-mail" name="user_mail" />
+            </div>
+            <div>
+              <label for="name">電話番号：</label>
+              <input type="text" id="tel" name="user_tel" />
+            </div>
+            <div>
+              <label for="msg">ご用件</label>
+              <textarea name="user_message" id="msg"></textarea>
+            </div>
+            <div class="button_submit">
+              <button class="button" type="submit">送信</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div>
+          <small>© Natsuki.</small>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

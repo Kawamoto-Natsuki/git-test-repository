@@ -1,0 +1,175 @@
+@charset "utf-8";
+nav ul {
+  display: flex;
+  justify-content: right;
+  padding: 20px 70px;
+}
+
+nav ul li {
+  font-size: 22px;
+  padding: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  background: rgba(101, 101, 101, 0.8);
+  padding: 0 10px;
+  border-radius: 100% 20% 100% 20%;
+}
+
+#header-top {
+  height: 700px;
+  background: url(../img/top.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.top_wrap {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin: 275px auto;
+}
+
+#about {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.section_title {
+  font-size: 45px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+}
+
+.about_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about_left {
+  margin-right: 0%;
+}
+.about_right {
+  margin-right: 10%;
+}
+.about_left img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about_right h3 {
+  color: black;
+  font-size: 25px;
+  padding: 5px 0;
+}
+.about_right h6 {
+  color: black;
+  font-size: 15px;
+  padding: 15px 0;
+}
+
+.about_right p {
+  font-size: 15px;
+  color: #555;
+}
+
+#skill {
+  margin: 100px auto;
+  padding: 40px 0;
+  height: 700px;
+  background: url(../img/skill.jpg) no-repeat center center;
+  background-size: cover;
+}
+#skill h2 {
+  color: white;
+}
+
+.skill_wrap {
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.skill_wrap img {
+  margin: 10%;
+}
+#skill p {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10%;
+}
+#twitter {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.twitter_wrap img {
+  width: 35%;
+  border-radius: 50%;
+}
+.twitter_wrap p {
+  margin: 2rem auto;
+  font-size: 25px;
+}
+
+#contact {
+  background: rgb(241, 241, 241);
+}
+
+#contact h2 {
+  padding: 40px 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 65%;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 6px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#footer {
+  background-color: #444;
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+}
